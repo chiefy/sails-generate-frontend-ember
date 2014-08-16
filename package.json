@@ -1,22 +1,23 @@
 {
-  "name": "sails-generate-frontend",
-  "version": "0.10.20",
-  "description": "Generate a frontend for Sails.",
+  "name": "sails-generate-frontend-ember",
+  "version": "0.0.1",
+  "description": "Generate an ember-based frontend for Sails.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha",
-    "prepublish": "node build.js"
+    "test": "mocha"
   },
   "keywords": [
     "frontend",
     "generator",
     "sails",
     "generate",
-    "plugin"
+    "plugin",
+    "ember"
   ],
-  "author": "balderdashy",
+  "author": "Christopher 'Chief' Najewicz <chief@beefdisciple.com>",
   "license": "MIT",
   "dependencies": {
+    "ember-cli": "~0.0.40",
     "lodash": ">=2.4.x",
     "merge-defaults": ">=0.1.0"
   },
